@@ -4,4 +4,4 @@ _exclude:
   - README.md
 
 _tasks:
-  - "npx gitignore python"
+  - "npx gitignore python jekyll node"
