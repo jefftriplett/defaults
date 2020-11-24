@@ -1,0 +1,7 @@
+_exclude:
+  - /.git
+  - copier.yml
+  - README.md
+
+_tasks:
+  - "npx gitignore python"
