@@ -4,6 +4,7 @@ _exclude:
   - /.git
 
 _skip_if_exists:
+  - .gitignore
   - justfile
   - README.md
 
