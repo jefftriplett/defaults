@@ -8,7 +8,7 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{py,rst,ini}]
+[*.{ini,md,py,rst}]
 indent_size = 4
 indent_style = space
 
@@ -21,9 +21,11 @@ indent_size = 2
 indent_style = space
 
 [*.md]
-indent_size = 4
-indent_style = space
 trim_trailing_whitespace = false
 
-[Makefile]
+[justfile]
+indent_size = 4
+indent_style = space
+
+[{Makefile,modd.conf}]
 indent_style = tab

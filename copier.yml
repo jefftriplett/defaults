@@ -1,7 +1,13 @@
+_answers_file: .copier-answers.yml
+
 _exclude:
   - /.git
-  - copier.yml
+
+_skip_if_exists:
+  - justfile
   - README.md
 
 _tasks:
   - "npx gitignore python jekyll node"
+
+_templates_suffix: .jinja
