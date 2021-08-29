@@ -2,11 +2,11 @@ _answers_file: .copier-answers.yml
 
 _exclude:
   - /.git
+  - README.md
 
 _skip_if_exists:
   - .gitignore
   - justfile
-  - README.md
 
 # _tasks:
 #   - "npx gitignore python jekyll node"
