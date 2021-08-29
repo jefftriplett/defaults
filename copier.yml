@@ -8,7 +8,7 @@ _skip_if_exists:
   - justfile
   - README.md
 
-_tasks:
-  - "npx gitignore python jekyll node"
+# _tasks:
+#   - "npx gitignore python jekyll node"
 
 _templates_suffix: .jinja
