@@ -8,7 +8,7 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{ini,md,py,rst}]
+[*.{py,rst,ini}]
 indent_size = 4
 indent_style = space
 
@@ -16,11 +16,13 @@ indent_style = space
 line_length=120
 multi_line_output=3
 
-[*.{conf,css,html,js,json,sass,scss,yml,yaml}]
+[*.{conf,css,html,js,json,sass,scss,ts,tsx,yml,yaml}]
 indent_size = 2
 indent_style = space
 
 [*.md]
+indent_size = 4
+indent_style = space
 trim_trailing_whitespace = false
 
 [justfile]
