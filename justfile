@@ -17,6 +17,10 @@ set dotenv-load := false
 @console:
     echo "TODO: console"
 
+# format and overwrite justfile
+@fmt:
+    just --fmt --unstable
+
 # starts app
 @server:
     echo "TODO: server"
