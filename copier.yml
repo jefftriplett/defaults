@@ -6,6 +6,7 @@ _exclude:
 
 _skip_if_exists:
   - .gitignore
+  - .pre-commit-config.yaml
   - justfile
 
 # _tasks:
