@@ -3,6 +3,7 @@ _answers_file: .copier-answers.yml
 _exclude:
   - /.git
   - README.md
+  - requirements.in
 
 _skip_if_exists:
   - .gitignore
