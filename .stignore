@@ -1,0 +1,12 @@
+*.pyc
+*.pyi
+.*-cache/
+.DS_Store
+.envrc
+.jekyll-cache/
+.mypy_cache/
+.nox/
+.pytest_cache/
+.ruff_cache/
+docker-compose.override.yml
+pyrightconfig.json
