@@ -6,8 +6,10 @@ _exclude:
   - requirements.in
 
 _skip_if_exists:
+  - .envrc
   - .gitignore
   - .pre-commit-config.yaml
+  - .stignore
   - justfile
 
 # _tasks:
